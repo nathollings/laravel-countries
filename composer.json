@@ -21,7 +21,7 @@
     "require": {
         "php": "^7.3|^8.0|^8.1|^8.2",
         "laravel/framework": "^8.12|^9.0|^10.0|^11.0",
-        "astrotomic/laravel-translatable": "^11.12.1"
+        "astrotomic/laravel-translatable": "^dev-l11-compatibility"
     },
     "require-dev": {
         "doctrine/dbal": "^3.0",
@@ -29,6 +29,12 @@
         "orchestra/testbench": "~3.6.7 || ~3.7.8 || ~3.8.6 || ^4.8 || ^5.2 || ^6.0",
         "phpunit/phpunit": "^8.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/laravel-translatable.git"
+        }
+    ],    
     "autoload": {
         "psr-4": {
             "Lwwcas\\LaravelCountries\\": "src",
