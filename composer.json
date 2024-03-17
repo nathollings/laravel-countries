@@ -21,7 +21,7 @@
     "require": {
         "php": "^7.3|^8.0|^8.1|^8.2",
         "laravel/framework": "^8.12|^9.0|^10.0|^11.0",
-        "astrotomic/laravel-translatable": "^11.8"
+        "astrotomic/laravel-translatable": "^11.12.1"
     },
     "require-dev": {
         "doctrine/dbal": "^3.0",
